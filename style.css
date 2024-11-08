@@ -1,0 +1,95 @@
+body{
+    margin: 20px;
+    padding: 0;
+    background-color: #faebd7;
+}
+
+.Create-cv {
+    text-align: center;
+    color: black;
+    /* border: 1px solid brown; */
+    background-color: rgba(182, 77, 173, 0.493);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 633px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 4px;
+}
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(77, 182, 86, 0);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-weight: bold;
+    
+}
+fieldset{
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(107, 196, 196, 0);
+}
+legend{
+    font-weight: bold;
+    color: black
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+textarea{
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 2px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input{
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 6px;
+}
+button{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: rgba(182, 77, 173, 0.493);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button:hover{
+    background-color: rgba(182, 77, 173, 0.493);
+    color: black;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color:rgba(182, 77, 173, 0.637);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+#resumeOutput h2{
+    color: black;
+}
+
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid blueviolet;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
